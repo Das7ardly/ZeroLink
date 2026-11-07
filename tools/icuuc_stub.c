@@ -1,0 +1,21 @@
+/* Build-time stub only: lets Qt6Core.dll load under Wine. Never shipped. */
+__declspec(dllexport) void* UCNV_FROM_U_CALLBACK_SUBSTITUTE(void){ return 0; }
+__declspec(dllexport) void* UCNV_TO_U_CALLBACK_SUBSTITUTE(void){ return 0; }
+__declspec(dllexport) void* ucnv_cbFromUWriteUChars(void){ return 0; }
+__declspec(dllexport) void* ucnv_cbToUWriteUChars(void){ return 0; }
+__declspec(dllexport) void* ucnv_close(void){ return 0; }
+__declspec(dllexport) void* ucnv_countAvailable(void){ return 0; }
+__declspec(dllexport) void* ucnv_fromUCountPending(void){ return 0; }
+__declspec(dllexport) void* ucnv_fromUnicode(void){ return 0; }
+__declspec(dllexport) void* ucnv_getAvailableName(void){ return 0; }
+__declspec(dllexport) void* ucnv_getFromUCallBack(void){ return 0; }
+__declspec(dllexport) void* ucnv_getMaxCharSize(void){ return 0; }
+__declspec(dllexport) void* ucnv_getName(void){ return 0; }
+__declspec(dllexport) void* ucnv_getStandardName(void){ return 0; }
+__declspec(dllexport) void* ucnv_getToUCallBack(void){ return 0; }
+__declspec(dllexport) void* ucnv_open(void){ return 0; }
+__declspec(dllexport) void* ucnv_reset(void){ return 0; }
+__declspec(dllexport) void* ucnv_setFromUCallBack(void){ return 0; }
+__declspec(dllexport) void* ucnv_setToUCallBack(void){ return 0; }
+__declspec(dllexport) void* ucnv_toUCountPending(void){ return 0; }
+__declspec(dllexport) void* ucnv_toUnicode(void){ return 0; }

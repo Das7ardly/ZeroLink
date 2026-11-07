@@ -1,0 +1,2 @@
+This file makes ZeroLink portable: settings, history and tools are kept in the "data" folder next to ZeroLink.exe.
+Delete it to store them in %LOCALAPPDATA%\ZeroLink instead.

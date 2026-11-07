@@ -1,0 +1,17 @@
+# build output
+build/
+dist/
+.winbuild/
+.venv/
+*.exe
+!assets/**/*.exe
+ZeroLink-*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# runtime data when run from source in portable mode
+data/
+*.zlpart
+*.zlpart.json
